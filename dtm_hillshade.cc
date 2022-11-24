@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <climits>
 #include <cmath>
+#include <cstring>
 
 #include "rasodmg/gmarray.hh"
 
