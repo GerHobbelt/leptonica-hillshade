@@ -1,0 +1,25 @@
+name: geotoolkit
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - git
+  - pip
+  - numpy
+  - scipy
+  - pip:
+    - git+https://github.com/geoscixyz/Toolkit.git@main
+    - sphinx
+    - sphinx_rtd_theme
+    - sphinxcontrib-bibtex
+    - nbsphinx
+    - nbstripout
+    - numpydoc
+    - download
+    - tqdm
+  - matplotlib
+  - ipywidgets
+  - geopandas
+  - scikit-image
