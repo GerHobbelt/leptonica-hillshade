@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <script src="/client.js" type="module"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <h1>Mandelbrot Set Explorer</h1>
+    <dl>
+        <dt>Viewing</dt>
+        <dd>
+            <span id="wElement"></span> wide view at
+            (<span id="xElement"></span>, <span id="yElement"></span>)
+            using max <span id="iElement"></span>
+            iterations per pixel
+        </dd>
+        <dt>Click image to</dt>
+        <dd>
+            <label for="magnification">zoom ×<span
+                    id="zoomElement"></span></label>
+            <input type="range" id="magnificationElement" name="magnification"
+                min="0" max="5" step="1" value="4">
+
+            <label for="iLog10"> using max <span id="iNewElement"></span>
+                iterations per pixel</label>
+            <input id="iLog10Element" type="range" name="iLog10" min="3" max="7"
+                step="1" value="3">
+        </dd>
+    </dl>
+
+
+    <a id="gifElement">Animated GIF</a>
+    <a id="mp4SmallElement">Small MPEG Video</a>
+    <a id="slowMp4SmallElement">Small Slow MPEG Video</a>
+    <a id="mp4Element">MPEG Video</a>
+    <a id="hdMp4Element">HD Slow MPEG Video</a>
+    <a id="mediumElement">Smaller Image</a>
+
+    <div>
+        <img id="imgElement" />
+    </div>
+</body>
+
+</html>

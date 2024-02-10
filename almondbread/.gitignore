@@ -1,0 +1,14 @@
+.vscode
+/mandelbrot
+/mandelbrot.png
+/node_modules
+/public/mandelbrot.png
+/public/cache/mandelbrot_*.png
+/histogram.csv
+/mandelbrot_debug
+/public/cache/video_*.png
+/public/cache/video_*.gif
+*.o
+/fixedpt_*_test
+public/cache/mpg_*.png
+public/cache/mp4_*.png
