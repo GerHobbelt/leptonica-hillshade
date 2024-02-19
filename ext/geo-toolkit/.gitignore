@@ -63,7 +63,4 @@ target/
 
 # Windows
 
-# notebooks
-Notebooks/Output/*
-
 !somefolder/.gitkeep
